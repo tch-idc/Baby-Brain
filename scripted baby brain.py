@@ -8,9 +8,9 @@ class BabyAI:
 
     def think(self):
         if self.mood == "happy":
-            return "I feel good today 😊"
+            return "I feel good today "
         elif self.mood == "angry":
-            return "I don't like that 😡"
+            return "I don't like that "
         else:
             return "I am learning..."
 
@@ -21,3 +21,4 @@ baby.learn("Sky is blue")
 
 print(baby.think())
 print("Memory:", baby.memory)
+
